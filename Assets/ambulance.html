@@ -1,0 +1,146 @@
+<html>
+ <head>
+  <title>
+   Medconnect-Ambulance
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   }
+   .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+   }
+   .dropdown-content a:hover {
+    background-color: #f1f1f1;
+   }
+   .show {
+    display: block;
+   }
+  </style>
+ </head>
+ <body class="font-roboto">
+  <header class="bg-black text-white p-4 flex justify-between items-center">
+   <div class="flex items-center space-x-4">
+    <div class="text-2xl font-bold">
+    Medconnect
+    </div>
+ 
+   </div>
+   <div class="flex items-center space-x-4">
+    <a class="hover:underline" href="#">
+     EN
+    </a>
+    <a class="hover:underline" href="#">
+     Help
+    </a>
+   
+    <a class=" bg-white text-black px-6 py-3 rounded hover:bg-gray-200" href="SignUp.html">
+     Sign up
+    </a>
+   </div>
+  </header>
+  <main class="flex justify-between p-8">
+   <div class="w-1/2 space-y-6">
+    <h1 class="text-5xl font-bold">
+     Book ambulance with Medconnect
+    </h1>
+    <div class="flex space-x-4">
+     <div class="flex items-center space-x-2">
+      <i class="fas fa-car text-2xl">
+      </i>
+      <span class="font-bold">
+       Ride
+      </span>
+     </div>
+     <div class="flex items-center space-x-2 text-gray-500">
+      <i class="fas fa-box text-2xl">
+      </i>
+      <span>
+       Package
+      </span>
+     </div>
+    </div>
+    <div class="space-y-4">
+     <div class="bg-gray-100 p-4 rounded-lg flex items-center space-x-4">
+      <i class="fas fa-circle text-xl">
+      </i>
+      <input class="bg-transparent w-full focus:outline-none" placeholder="Pickup location" type="text"/>
+     </div>
+     <div class="bg-gray-100 p-4 rounded-lg flex items-center space-x-4">
+      <i class="fas fa-square text-xl">
+      </i>
+      <input class="bg-transparent w-full focus:outline-none" placeholder="Dropoff location" type="text"/>
+     </div>
+     <div class="flex space-x-4">
+      <div class="bg-gray-100 p-4 rounded-lg flex items-center space-x-2">
+       <i class="fas fa-calendar-alt text-xl">
+       </i>
+       <span>
+        Today
+       </span>
+      </div>
+      <div class="relative">
+       <div class="bg-gray-100 p-4 rounded-lg flex items-center space-x-2 cursor-pointer" onclick="toggleDropdown()">
+        <i class="fas fa-clock text-xl">
+        </i>
+        <span>
+         Now
+        </span>
+        <i class="fas fa-chevron-down">
+        </i>
+       </div>
+       <div class="dropdown-content absolute right-0 mt-2 rounded-lg shadow-lg bg-white">
+        <a href="#">
+         Now
+        </a>
+        <a href="#">
+         In 15 minutes
+        </a>
+        <a href="#">
+         In 30 minutes
+        </a>
+        <a href="#">
+         In 1 hour
+        </a>
+       </div>
+      </div>
+     </div>
+     <button class="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800">
+      See prices
+     </button>
+    </div>
+   </div>
+   <div class="w-1/2">
+    <img alt="Map showing various locations in a city" class="w-full h-full object-cover rounded-lg" height="400" src="https://storage.googleapis.com/a1aa/image/kf6l2bm1TZUqHyv4M7PEezsWoekQRmgEFSQ6To07IKAUNhanA.jpg" width="600"/>
+   </div>
+  </main>
+  <script>
+   function toggleDropdown() {
+    document.querySelector('.dropdown-content').classList.toggle('show');
+   }
+   window.onclick = function(event) {
+    if (!event.target.matches('.cursor-pointer')) {
+     var dropdowns = document.getElementsByClassName("dropdown-content");
+     for (var i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+       openDropdown.classList.remove('show');
+      }
+     }
+    }
+   }
+  </script>
+ </body>
+</html>

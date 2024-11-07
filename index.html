@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="Assets/css/live.css">
+    
+</head>
+<style>
+    .horizontal-line {
+        width: 97vw;
+        height: 0.5px;
+        border: 0.5px solid #767676; /* You can change the color as needed */
+        margin: -10px auto ; /* Center the line horizontally */
+    }
+</style>
+<body class="bg-[#f4f4f4]">
+    <!-- Header -->
+    <header class="bg-[#f4f4f4] fixed top-0 z-20 w-full backdrop-blur-lg bg-white/30 opacity-95 border-b-[0.1px] " >
+        <div class="flex flex-col items-center  mx-auto" style="width: 80vw;">
+            <div class="container  mx-auto px-4 py-4 flex justify-between items-center">
+                <div class="text-2xl font-bold text-gray-1000">MEDCONNECT</div>
+                <nav class="font-bold  text-black flex flex-row">
+                    <a href="#" class="mr-4 hover:text-gray-800">Home</a>
+                    <a href="Assets/ambulance.html" class="mr-1 hover:text-gray-800">Ambulance</a>
+                    <a href="#" class="flex items-center justify-center">
+                        <div  class=" mr-4">
+                            <section class="section video" aria-label="video">
+                                <div class="container">
+                                    <div class="video-card has-before has-bg-image">
+                                            <button class="live-btn" aria-label="play video"></button> 
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </a>
+                    <a href="Assets/consult.html" class="mr-4 hover:text-gray-800">Consult</a>
+                    <a href="Assets/Medconnect-Research/index.html" class="hover:text-gray-800">Research</a>
+                </nav>
+                <div class="flex items-center space-x-4">
+                    <i class="fas fa-search text-gray-600"></i>
+                    <a href="#" class="font-bold text-gray-1000 hover:text-gray-800">Search</a>
+                    <a href="Assets/SignUp.html" class="hover:text-gray-800">
+                        <button class="bg-[#046edc] text-white px-4 py-2 rounded">Signup</button>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="horizontal-line "><div>  
+    <div class="bg-[#f4f4f4]   h-16 w-full top-3 backdrop-blur-sm bg-white/30 opacity-95"></div>
+    <main class="container mx-auto px-4 py-8" style="width: 97vw;">
+        <div class="relative bg-cover bg-center rounded-lg overflow-hidden" style="background-image: url('Assets/img/Medical-background1.jpg');">
+            <div class="absolute inset-0 bg-black opacity-50"></div>
+            <div class="relative z-10 text-center text-white py-24">
+                <h1 class="text-4xl font-bold">Your Health, Our Priority</h1>
+                <p class="mt-4 text-lg">Life’s Surprises? We’re Ready, Caring for You Every Day</p>
+                <a href="Assets/SignUp.html" >
+                    <button class="mt-8 bg-[#046edc] text-white px-6 py-3 rounded">Get Started</button>
+                </a>
+                
+            </div>
+        </div>
+    </main>
+    <!-- Statistics Section -->
+    <div class="bg-[#f4f4f4] flex flex-col items-center p-10  " >
+        <div class=" rounded-lg p-5 flex justify-around  mt-14 mb-24 border border-gray-300 " style="width: 80vw;" >
+            <div class="text-center">
+                <div class="text-6xl font-bold">
+                    76%
+                </div>
+                <div class="text-xl text-gray-600">
+                    Success Rate
+                </div>
+            </div>
+            <div class="text-center">
+                <div class="text-6xl font-bold">
+                    32M+
+                </div>
+                <div class="text-2xl text-gray-600">
+                    Calls Responded
+                </div>
+            </div>
+            <div class="text-center">
+                <div class="text-6xl font-bold">
+                    7K+
+                </div>
+                <div class="text-2xl text-gray-600">
+                    Ambulances & Vehicles
+                </div>
+            </div>
+            <div class="text-center">
+                <div class="text-6xl font-bold">
+                    9%
+                </div>
+                <div class="text-2xl text-gray-600">
+                    Trade In the World
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- i -->
+
+    <div class=" text-white fixed right-4 bottom-0 transform -translate-y-1/2 px-4 py-4 rounded-full flex items-center justify-center">
+        
+        <section class="section video" aria-label="video">
+            <div class="container">
+    
+                <div class="video-card has-before has-bg-image">
+
+    
+                <a href="Assets/ambulance.html">
+                    <button class="play-btn" aria-label="play video">
+                        <img alt="Profile image 1" class="w-16 h-16 rounded-full" src="Assets/img/Ambulance1.jpg" />
+                    </button>
+                    
+                </a>
+
+
+                </div>
+    
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Achievements -->
+    <div class="flex justify-center items-center  p-4 mt-14">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 "  style="width: 97vw;">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col justify-center items-center">
+                    <p class="text-lg font-medium">Pimples or screen issue</p>
+                    <button class="mt-4 px-4 py-2 border border-blue-500 text-blue-500 rounded-full">View More</button>
+                </div>
+                <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col justify-center items-center">
+                    <p class="text-lg font-medium">Cold, cough or fever</p>
+                </div>
+                <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col justify-center items-center">
+                    <p class="text-lg font-medium">Depression or anaxiety</p>
+                </div>
+                <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col justify-center items-center">
+                    <p class="text-lg font-medium">General Physician</p>
+                </div>
+            </div>
+            <div class="bg-[#121317] rounded-3xl shadow-md p-6 text-white flex flex-col justify-center items-center" style="height: 80vh;">
+                <div class="flex flex-row gap-4">
+                    <div class="flex items-center space-x-4 mb-4 border rounded-3xl border-gray-300 p-10">
+                        <img alt="Profile image 1" class="w-12 h-12 rounded-full" src="Assets/img/Mick.jpg" />
+                        <img alt="Profile image 2" class="w-12 h-12 rounded-full" src="Assets/img/video.jpg" />
+                    </div>
+                    <div class="text-center mb-4 border border-gray-300 rounded-3xl p-8 ">
+                        <p class="text-sm mt-0">Professionals</p>
+                        <div class="flex flex-col"> 
+    
+                            <p class="text-green-500 text-sm m-1"><i class="fas fa-arrow-up "></i> 14%</p>
+                            <p class="text-4xl font-bold text-2xl">31 K</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center ">
+                    <h2 class="text-2xl font-bold m-8 text-3xl ">Widget control</h2>
+                    <p class="text-md ">A marketing plan is a comprehensive document or blueprint that outlines a company's advertising and marketing efforts for the coming year.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- What's app scanner -->
+    <div class="flex justify-center items-center  p-4" >
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 " style="width: 97vw;">
+            <div class="bg-[#121317] rounded-2xl shadow-md p-6 text-white flex flex-col justify-center items-center" style="height: 80vh; ">
+                
+                <div class="text-center mb-4 border border-gray-300 rounded-3xl p-8 ">
+                    <p class="text-sm mt-0">Professionals</p>
+                    <div class="flex flex-col"> 
+
+                        <p class="text-green-500 text-sm m-1"><i class="fas fa-arrow-up "></i> 14%</p>
+                        <p class="text-4xl font-bold text-2xl">31 K</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <h2 class="text-2xl font-bold mb-2">Widget control</h2>
+                    <p class="text-sm">A marketing plan is a comprehensive document or blueprint that outlines a company's advertising and marketing efforts for the coming year.</p>
+                </div>
+                <a href="Assets/SignUp.html" class="hover:text-gray-800">
+                    <button class="bg-[#121317] text-white px-4 py-2 rounded rounded-3xl border border-[#046edc] hover:bg-[#046edc]">View More</button>
+                </a>
+            </div>
+            <div class="bg-[#ffffff] rounded-2xl shadow-md p-6 text-white flex flex-col justify-center items-center" style="height: 80vh;">
+
+                <div class="text-center  mb-4">
+                    <!-- <p class="text-sm">Professionals</p>
+                    <p class="text-4xl font-bold">31 K</p> -->
+
+                </div>
+                <div class="text-center  mb-24">
+                    <h2 class="text-2xl font-bold mb-2 text-[#0000008f]">Widget control</h2>
+
+                </div>
+                <div class="border border-[#ffffff] w-full mb-24 ">
+
+                </div>
+                <div class="border border-[#f4f4f4] w-full mb-0 ">
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div class=" text-white fixed right-4 bottom-0 transform -translate-y-1/2 px-4 py-4 rounded-full flex items-center justify-center">
+        <section class="section video" aria-label="video">
+            <div class="container">
+                    <div class="video-card has-before has-bg-image">
+                        <a href="Assets/ambulance.html">
+                            <button class="play-btn" aria-label="play video">
+                                <img alt="Profile image 1" class="w-16 h-16 rounded-full" src="Assets/img/Ambulance1.jpg" />
+                            </button>
+                        </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- Peoples -->
+    <div class="bg-[#f4f4f4] flex flex-col items-center p-6" style="width: 97vw;">
+        <div class="bg-[#f4f4f4] rounded-lg  p-6 flex  mx-auto" >
+            <div class="mr-14">
+                <img alt="A woman wearing a brown coat and a yellow sweater, adjusting her face mask" class="rounded-lg" height="400" src="https://storage.googleapis.com/a1aa/image/om9UkqhOfB02ZyqvKNJAGsKHTgNDhKeqrd4cRxsH0k95DRtTA.jpg" width="700" />
+            </div>
+            <div class="w-1/2 pl-6">
+                <h2 class="text-2xl font-bold mb-2">
+                    Healing in caring hands
+                </h2>
+                <p class="text-gray-600 mb-4">
+                    The right consult the first time
+                </p>
+                <h3 class="text-xl font-bold mb-2">
+                    Project Overview
+                </h3>
+                <p class="text-gray-800">
+                    A marketing plan is a comprehensive document or blueprint that outlines a company's advertising and marketing efforts for the coming year.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Section -->
+    <div class="container mx-auto py-12 px-4" style="width: 97vw;">
+        <div class="flex flex-col md:flex-row">
+            <div class="md:w-1/3 mb-8 md:mb-0">
+                <h1 class="text-4xl font-bold mb-4 mr-1">Featured care areas</h1>
+                <p class="text-lg">We solve the world's most serious and complex medical challenges.</p>
+            </div>
+            <div class="md:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="flex justify-between items-center border-b py-2">
+                    <a href="#" class="text-[#046edc] hover:underline">Bone marrow transplant</a>
+                    <i class="fas fa-chevron-right text-[#046edc]"></i>
+                </div>
+                <div class="flex justify-between items-center border-b py-2">
+                    <a href="#" class="text-[#046edc] hover:underline">Heart arrhythmia</a>
+                    <i class="fas fa-chevron-right text-[#046edc]"></i>
+                </div>
+                <div class="flex justify-between items-center border-b py-2">
+                    <a href="#" class="text-[#046edc] hover:underline">Brain aneurysm</a>
+                    <i class="fas fa-chevron-right text-[#046edc]"></i>
+                </div>
+                <div class="flex justify-between items-center border-b py-2">
+                    <a href="#" class="text-[#046edc] hover:underline">Heart valve disease</a>
+                    <i class="fas fa-chevron-right text-[#046edc]"></i>
+                </div>
+                <div class="flex justify-between items-center border-b py-2">
+                    <a href="#" class="text-[#046edc] hover:underline">Brain tumor</a>
+                    <i class="fas fa-chevron-right text-[#046edc]"></i>
+                </div>
+                <div class="flex justify-between items-center border-b py-2">
+                    <a href="#" class="text-[#046edc] hover:underline">Living-donor transplant</a>
+                    <i class="fas fa-chevron-right text-[#046edc]"></i>
+                </div>
+                <div class="flex justify-between items-center border-b py-2">
+                    <a href="#" class="text-[#046edc] hover:underline">Breast cancer</a>
+                    <i class="fas fa-chevron-right text-[#046edc]"></i>
+                </div>
+                <div class="flex justify-between items-center border-b py-2">
+                    <a href="#" class="text-[#046edc] hover:underline">Lung transplant</a>
+                    <i class="fas fa-chevron-right text-[#046edc]"></i>
+                </div>
+                <div class="flex justify-between items-center border-b py-2">
+                    <a href="#" class="text-[#046edc] hover:underline">Colon cancer</a>
+                    <i class="fas fa-chevron-right text-[#046edc]"></i>
+                </div>
+                <div class="flex justify-between items-center border-b py-2">
+                    <a href="#" class="text-[#046edc] hover:underline">Sarcoma</a>
+                    <i class="fas fa-chevron-right text-[#046edc]"></i>
+                </div>
+                <div class="flex justify-between items-center border-b py-2">
+                    <a href="#" class="text-[#046edc] hover:underline">Congenital heart disease</a>
+                    <i class="fas fa-chevron-right text-[#046edc]"></i>
+                </div>
+                <div class="flex justify-between items-center border-b py-2">
+                    <a href="#" class="text-[#046edc] hover:underline">Testicular cancer</a>
+                    <i class="fas fa-chevron-right text-blue-600"></i>
+                </div>
+                <div class="flex justify-between items-center border-b py-2">
+                    <a href="#" class="text-[#046edc] hover:underline">Glioma</a>
+                    <i class="fas fa-chevron-right text-[#046edc]"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+
+    <div class="max-w-7xl mx-auto p-4" style="width: 80vw;">
+        <nav class="flex flex-col text-sm text-gray-600 mb-4">
+            <div class="py-1">
+                <a href="#" class="hover:underline">Home</a> &gt; 
+            <a href="Assets/ambulance.html" class="hover:underline">Ambulance</a> &gt; 
+            <a href="Assets/consult.html" class="hover:underline">Consult</a>
+            </div>
+            <div class="w-full mt-1 border-t border-gray-300 py-1"></div>
+        </nav>
+
+        
+
+        <div class="bg-[#f4f4f4] text-xs p-6 text-[#0000008f] rounded " style="width: 80vw;">
+            <p class="mb-4">
+                Healthcare today faces significant challenges due to fragmented patient data, where medical history is scattered across platforms, making it difficult for providers to retrieve comprehensive information. Paper-based prescriptions often result in errors, delays, or even tampering, compromising patient safety. Additionally, many patients, especially in remote areas, lack access to timely medical care due to the absence of remote consultation options. Manual processes like paperwork and data entry slow down the delivery of care, while maintaining complete and easily accessible medical records remains a struggle. Furthermore, the reliance on paper records and non-secure communication channels raises serious concerns about data privacy and security.
+            </p>
+            <p class="mb-4">
+                MediConnect aims to streamline and enhance healthcare delivery by leveraging QR code technology to connect patients, doctors, and chemists seamlessly.
+
+                <br/>MediConnect aims to revolutionize healthcare delivery by integrating QR code technology, allowing seamless interaction between patients, doctors, and chemists. The platform simplifies access to medical records, enables real-time prescription management, ensures secure data exchange, and enhances patient care. By promoting collaboration among healthcare providers and incorporating remote consultation services, MediConnect seeks to reduce treatment delays, improve prescription accuracy, and provide medical expertise to patients regardless of location, ensuring better healthcare outcomes.
+            </p>
+            <p>
+                The motivation behind the development of the "MediConnect" platform stems from the challenges faced in the current healthcare system, particularly in managing and accessing patient data. Fragmented medical records spread across different systems result in delays and inefficiencies when retrieving essential information, leading to potential risks in patient care. Additionally, manual processes, such as handwritten prescriptions, are prone to errors, which can result in medication mistakes. The lack of seamless communication between patients, doctors, and chemists further exacerbates these issues, creating delays in treatment and increasing the risk of errors. By addressing these challenges, MediConnect aims to create a more efficient, reliable, and connected healthcare environment where medical records and prescriptions are easily accessible, reducing the time and effort required to deliver accurate and timely care.
+            </p>
+            <p>
+                Enhanced Healthcare Experience: Patients will have instant access to their medical records and prescriptions via a simple QR code, reducing the time spent retrieving information and increasing their involvement in managing their health.
+
+                Quick and Accurate Prescription Fulfillment: Chemists can instantly verify prescriptions by scanning the patient's QR code, reducing the risk of misreading handwritten prescriptions and speeding up the dispensing process.
+
+                Improved Patient Outcomes: By ensuring that patient records and prescriptions are accurately shared between doctors and chemists, Med Connect helps reduce treatment delays, medication errors, and misdiagnoses, leading to better healthcare outcomes.
+
+                Improved Treatment Accuracy: Since prescriptions are digitized and accessible to both doctors and chemists, there is a lower risk of errors, such as incorrect dosages or medications being dispensed.
+            </p>
+        </div>
+    </div>
+
+    <div class="bg-[#f4f4f4] font-roboto max-w-7xl mx-auto p-4 " >
+        <div class="flex flex-col items-center justify-center  px-4"> <!--min-h-screen-->
+            <div class="text-center "> <!--mt-10-->
+                <h1 class="text-4xl font-bold text-[#0000008f]">Looking for best doctors?</h1>
+                <div class="mt-6 relative w-full max-w-md">
+                    <input id="searchInput" type="text" placeholder="Search Keyword" class="w-full h-12 pl-10 pr-4 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400">
+                    <i class="fas fa-search absolute left-4 top-3 text-gray-400"></i>
+                </div>
+                <div id="results" class="mt-6 flex flex-wrap justify-center space-x-2 space-y-2">
+                    <!-- Search results will be displayed here -->
+                </div>
+            </div>
+
+        
+            <div >
+                <!-- <h2 class="text-2xl font-bold">Footer-Links</h2> -->
+                <div class="container mx-auto py-8 text-xs text-[#0000008f]" style="width: 74vw;">
+                    <div class="grid grid-cols-5 gap-8">
+                        <div>
+                            <h2 class="font-bold mb-2">Diseases and Categories</h2>
+                            <ul>
+                                <li>Infectious Diseases</li>
+                                <li>Genetic Disorders</li>
+                                <li>Autoimmune Diseases</li>
+                                <li>Cardiovascular Diseases</li>
+                                <li>Metabolic Disorders</li>
+                                <li>Cancers</li>
+                                <li>Neurological Disorders</li>
+                                <li>Respiratory Diseases</li>
+                                <li>Dermatological Diseases</li>
+                                <li>Endocrine Disorders</li>
+                                <li>Digestive Disorders</li>
+                            </ul>
+                            
+                        </div>
+                        <div>
+                            <h2 class="font-bold mb-2">Infectious Diseases</h2>
+                            <ul>
+                                <li>Tuberculosis</li>
+                                <li>Pneumonia</li>
+                                <li>COVID-19</li>
+                                <li>Influenza</li>
+                                <li>Malaria</li>
+                            </ul>
+                            <h2 class="font-bold mt-4 mb-2">Genetic Disorders</h2>
+                            <ul>
+                                <li>Cystic Fibrosis</li>
+                                <li>Sickle Cell Anemia</li>
+                                <li>Hemophilia</li>
+                                <li>Down Syndrome</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="font-bold mb-2">Autoimmune Diseases</h2>
+                            <ul>
+                                <li>Rheumatoid Arthritis</li>
+                                <li>Lupus</li>
+                                <li>Multiple Sclerosis</li>
+                                <li>Type 1 Diabetes</li>
+                            </ul>
+                            <h2 class="font-bold mt-4 mb-2">Cardiovascular Diseases</h2>
+                            <ul>
+                                <li>Heart Attack</li>
+                                <li>Stroke</li>
+                                <li>Hypertension</li>
+                                <li>Atherosclerosis</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="font-bold mb-2">Metabolic Disorders</h2>
+                            <ul>
+                                <li>Diabetes</li>
+                                <li>Thyroid Disorders</li>
+                                <li>Phenylketonuria</li>
+                            </ul>
+                            <h2 class="font-bold mt-4 mb-2">Cancers</h2>
+                            <ul>
+                                <li>Lung Cancer</li>
+                                <li>Breast Cancer</li>
+                                <li>Leukemia</li>
+                                <li>Melanoma</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="font-bold mb-2">Neurological Disorders</h2>
+                            <ul>
+                                <li>Alzheimer’s Disease</li>
+                                <li>Parkinson’s Disease</li>
+                                <li>Epilepsy</li>
+                                <li>Stroke</li>
+                            </ul>
+                            <h2 class="font-bold mt-4 mb-2">Respiratory Diseases</h2>
+                            <ul>
+                                <li>Asthma</li>
+                                <li>COPD</li>
+                                <li>Lung Cancer</li>
+                                <li>Pneumonia</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!--  -->
+            <div class="w-full  border-t border-gray-300 py-4" style="width: 80vw;">
+                <div class="flex flex-col md:flex-row justify-between text-xs text-gray-600 px-4">
+                    <span>India</span>
+                    <div class="flex flex-wrap justify-center space-x-4 mt-2 md:mt-0">
+                        <span><a href="#" class="hover:underline">Home</a> </span>
+                        <span><a href="ambulance.html" class="hover:underline">Ambulance</a></span>
+                        <span><a href="consult.html" class="hover:underline">Consult</a></span>
+                        <span><a href="Assets/Medconnect-Research/index.html" class="hover:underline">Research</a></span>
+                        
+                    </div>
+                </div>
+                <span class="mt-2 md:mt-0 flex flex-col md:flex-row justify-between text-xs text-gray-600 px-4">Copyright © 2024 Medconnect. All rights reserved.</span>
+            </div>
+        </div>
+    
+    </div>
+</body>
+</html>
